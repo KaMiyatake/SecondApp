@@ -1,0 +1,51 @@
+# デフォルトの改行コード自動変換
+* text=auto
+
+# ソースコード系（LF固定）
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# 設定ファイル系（LF固定）
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
+*.plist text eol=lf
+*.properties text eol=lf
+
+# シェルスクリプト系（LF固定）
+*.sh text eol=lf
+*.bash text eol=lf
+
+# ドキュメント系（自動変換）
+*.txt text
+*.md text
+README text
+
+# バイナリファイル（変換しない）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.apk binary
+*.ipa binary
+
+# Android関連
+*.keystore binary
+*.jks binary
+
+# iOS関連
+*.p8 binary
+*.p12 binary
+*.mobileprovision binary
