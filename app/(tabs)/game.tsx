@@ -336,7 +336,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   countdownText: {
-    fontSize: 48,
+    fontSize: 24,
     fontWeight: 'bold',
   },
   resultContainer: {
@@ -345,7 +345,7 @@ const styles = StyleSheet.create({
   },
   resultBox: {
     paddingHorizontal: 20,
-    paddingVertical: 12,
+    paddingVertical: 6,
     borderRadius: 12,
     marginHorizontal: 20,
   },
@@ -370,7 +370,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   choiceEmoji: {
-    fontSize: 36,
+    fontSize: 18,
     marginVertical: 5,
   },
   choiceName: {
@@ -406,7 +406,7 @@ const styles = StyleSheet.create({
     opacity: 0.5,
   },
   buttonEmoji: {
-    fontSize: 32,
+    fontSize: 16,
     marginBottom: 5,
   },
   buttonText: {
