@@ -26,25 +26,43 @@ export default function TabLayout() {
           default: {},
         }),
       }}>
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="index"
         options={{
           title: 'Home',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
-      />
+      /> */}
       <Tabs.Screen
+        name="index"
+        options={{
+          href: null, // これでタブから完全に除外
+        }}
+      />
+      {/* <Tabs.Screen
         name="explore"
         options={{
           title: 'Explore',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
-      />
+      /> */}
       <Tabs.Screen
+        name="explore"
+        options={{
+          href: null, // これでタブから完全に除外
+        }}
+      />
+      {/* <Tabs.Screen
         name="date"
         options={{
           title: 'Date',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="calendar" color={color} />,
+        }}
+      /> */}
+      <Tabs.Screen
+        name="date"
+        options={{
+          href: null, // これでタブから完全に除外
         }}
       />
       <Tabs.Screen
@@ -52,6 +70,13 @@ export default function TabLayout() {
         options={{
           title: 'Game',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="gamecontroller.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="calendar"
+        options={{
+          title: 'Calendar',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="calendar.badge.plus" color={color} />,
         }}
       />
     </Tabs>
